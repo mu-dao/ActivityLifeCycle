@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ActivityLifeCycleTest</string>
+    <string name="action_settings">Settings</string>
+    <string name="normal">This is a normal activity</string>
+    <string name="dialog">This is a dialog activity</string>
+    <string name="normal_button">Start NormalActivity</string>
+    <string name="dialog_button">Start DialogActivity</string>
+    <string name="text">This is a Text</string>
+    <string name="hint">你可以随便输入点什么</string>
+    <string name="get_text">点击捕获文本</string>
+</resources>
