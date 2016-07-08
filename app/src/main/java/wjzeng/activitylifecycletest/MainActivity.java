@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //final ProgressBar p = (ProgressBar) findViewById(R.id.progress_bar);
         Button get_text_button = (Button) findViewById(R.id.get_text);
         final EditText edit_text = (EditText) findViewById(R.id.edit_text);
         get_text_button.setOnClickListener(new View.OnClickListener() {
@@ -54,11 +53,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String input = edit_text.getText().toString();
                 Toast.makeText(MainActivity.this,input,Toast.LENGTH_SHORT).show();
-                /*
-                int progress = p.getProgress();
-                progress += 10;
-                p.setProgress(progress);
-                */
                 AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
                 dialog.setTitle("Attention");
                 dialog.setMessage("You have click the button!");
@@ -82,14 +76,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    /*
-    @Override
-    public void onClick(View v){
-        switch (v.getId()){
-            case R.id.get_text
-        }
-    }
-    */
+
     @Override
     protected void onStart(){
         super.onStart();
